@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+.container{
+    height: 270px;
+    width: 450px;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+    margin-left: 37%;;
+    background: black;
+    border: 5px solid;
+    border-radius: 25px;
+    color: white;
+    gap: 0.1rem;
+    padding: 1rem;
+}
+.headermc{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: medium;
+}
+.headersim{
+    grid-row-start: 1;
+    grid-row-end:1;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: end;
+
+    
+}
+.cn{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: large;
+}
+.an{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: x-large;
+    font-weight: bold;
+}
+.vt{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: medium;
+    
+    
+}
+.name{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 35px;
+    
+}
+.month{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
